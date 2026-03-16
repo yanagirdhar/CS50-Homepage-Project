@@ -1,0 +1,53 @@
+/* 1. Body */
+body {
+    background-color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. Navbar */
+.navbar {
+    background-color: #213C51;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: rgba(255,255,255,0.1);
+}
+
+/* 3. Main heading */
+h1 {
+    color: #0d2130;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* 4. Buttons */
+.btn-primary {
+    background-color: #213C51;
+    border-color: #213C51;
+    border-radius: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #6594B1;
+    border-color: #6594B1;
+}
+
+/* 5. Era-specific card borders (using IDs) */
+#ts1 .card { border-top: 4px solid #0077be; } /* Debut - Teal */
+#ts2 .card { border-top: 4px solid #f9d71c; } /* Fearless - Gold */
+#ts3 .card { border-top: 4px solid #8a2be2; } /* Speak Now - Purple */
+#ts4 .card { border-top: 4px solid #ff0000; } /* Red - Red */
+#ts5 .card { border-top: 4px solid #00bfff; } /* 1989 - Sky Blue */
+#ts6 .card { border-top: 4px solid #000000; } /* Reputation - Black */
+#ts7 .card { border-top: 4px solid #ffc0cb; } /* Lover - Pink */
+#ts8 .card { border-top: 4px solid #a9a9a9; } /* Folklore - Gray */
+#ts9 .card { border-top: 4px solid #8b4513; } /* Evermore - Brown */
+#ts10 .card { border-top: 4px solid #53638C; } /* Midnights - Midnight Blue */
+#ts11 .card { border-top: 4px solid #2f4f4f; } /* TTPD - Dark */
+#ts12 .card { border-top: 4px solid #E08947; } /* Showgirl - Orange */
